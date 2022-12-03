@@ -25,7 +25,7 @@ def calorie_counting_part_two(input_file):
                 max3 = curr
             curr = 0
             
-    print(max + max2 + max3)
+    return(max + max2 + max3)
 
-
-calorie_counting_part_two("input.txt")
+if __name__ == "__main__":
+    print(calorie_counting_part_two("input.txt"))

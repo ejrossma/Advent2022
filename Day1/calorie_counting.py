@@ -2,7 +2,7 @@
 
 #input is a count of calories each elf is carrying
 #each elf's inventory is written one item per line & separated by a blank line
-#find the elf with the most calories
+#find the top 3 elves with the most calories
 
 def calorie_counting(input_file):
     file = open(input_file)
@@ -14,7 +14,7 @@ def calorie_counting(input_file):
             if curr > max:
                 max = curr
             curr = 0
-    print(max)
+    return max
 
-
-calorie_counting("input.txt")
+if __name__ == "__main__":
+    print(calorie_counting("input.txt"))
