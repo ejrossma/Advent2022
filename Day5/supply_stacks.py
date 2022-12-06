@@ -1,4 +1,4 @@
-#Day 4 of Advent of Code 2022
+#Day 5 of Advent of Code 2022
 
 #take in the base configuration
     #gotta make a list of crates for each number
